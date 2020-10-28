@@ -17,8 +17,6 @@ export class CarroselComponent implements OnInit {
 
   constructor(private dogService: DogService) { }
 
-  currentDog: number = 0;
-
   ngOnInit(): void {
     this.getDogs('initial', 0, 3);
   }
