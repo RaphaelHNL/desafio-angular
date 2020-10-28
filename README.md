@@ -9,6 +9,9 @@ Esse projeto foi feito utilizando Angular 10.
 * Framework Angular Material
 
 ## Rodando o projeto
+Pré-requisito:
+* Ter o Node e o NPM instalado.
+
 Séra necessário instalar o Json-server com npm: 'npm install -g json-server'.
 Após a instalação, na pasta raiz utilize o comando: 'json-server --watch dog.json --port 3000', assim irá subir o arquivo backend para consumo no front-end.
 
