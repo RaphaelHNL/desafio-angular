@@ -21,6 +21,9 @@ body {
 a {
   text-decoration: none;
 }
+.name-bold {
+  font-weight: bold;
+}
 
 .flex-container {
   width: 90%;
