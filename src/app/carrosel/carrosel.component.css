@@ -1,0 +1,93 @@
+body {
+  font-family: sans-serif;
+}
+
+.container-menu {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.space-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text-item {
+  margin: 5px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex-container {
+  width: 90%;
+  margin: 50px auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container-carrosel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card {
+  max-width: 300px;
+  height: 450px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.face-dog {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-dog {
+  max-width: 100%;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.text-dog {
+  padding: 10px;
+}
+
+.container-carrosel button {
+  border: none;
+  background-color: white;
+  width: 30px;
+  font-size: 50px;
+  color: gray;
+}
+
+.container-carrosel button:focus {
+  outline: thin dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
+}
+.container-carrosel button:focus {
+  outline: thin dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
+}

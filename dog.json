@@ -1,0 +1,44 @@
+{
+  "dogs": [
+    {
+      "id": 1,
+      "name": "Shiba Inu",
+      "breed": "Dog Breed",
+      "imagem": "./assets/shiba-inu-detail.jpg",
+      "faceImg": "./assets/shiba-face.jpg",
+      "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting."
+    },
+    {
+      "id": 2,
+      "name": "Chiuaua",
+      "breed": "Dog Breed",
+      "imagem": "./assets/chihuahua-branco.jpg",
+      "faceImg": "./assets/chihuahua-face.jpg",
+      "description": "Chihuahua is a breed of small dog originally from Mexico. It is one of the smallest breeds in the world, won in measures with the Small Russian dog."
+    },
+    {
+      "id": 3,
+      "name": "Pastor Alemão",
+      "breed": "Dog Breed",
+      "imagem": "./assets/pastor-alemao.jpg",
+      "faceImg": "./assets/pastor-face.jpg",
+      "description": "German shepherd or Alsace wolf is a canine breed from Germany. Originally it was used as a herding dog. Nowadays it is more used as guard dog and police dog."
+    },
+    {
+      "id": 4,
+      "name": "Poodle",
+      "breed": "Dog Breed",
+      "imagem": "./assets/poodle.jpg",
+      "faceImg": "./assets/poodle-face.jpg",
+      "description": "Poodle, according to the International Cinological Federation comes from France, because it was claimed, but it was raised a long time ago in Central European countries like Germany. Originally, it was used as a hunting dog for waterfowl."
+    },
+    {
+      "id": 5,
+      "name": "Dachshund",
+      "breed": "Dog Breed",
+      "imagem": "./assets/salsicha-dog.jpg",
+      "faceImg": "./assets/salsicha-face.jpg",
+      "description": "Dachshund or teckel, also called a sausage dog, is a breed of dog from Germany. This breed is part of an FCI group due to its wide range of sizes and coat: standard, miniature and kaninchen; long, smooth and hard hair."
+    }
+  ]
+}

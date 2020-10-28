@@ -1,0 +1,34 @@
+<div>
+  <div class="container-menu space-text">
+    <h3 class="text-item">Carrosel com Post</h3>
+
+    <a mat-raised-button class="text-item" [routerLink]="['/video']">Vídeo</a>
+  </div>
+</div>
+
+<div class="flex-container">
+
+  <div class="container-carrosel">
+    <button [disabled]="itens.first <= 0 && itens.last <= 0" (click)="previousDog()">&lt;</button>
+    <div *ngFor="let dog of dogs">
+
+      <div class="card">
+        <div class="container-img">
+          <img class="face-dog" src={{dog.faceImg}} />
+          <div class="column">
+            <span>{{dog.name}}</span>
+            <span>{{dog.breed}}</span>
+          </div>
+        </div>
+        <img class="img-dog" src={{dog.imagem}} />
+        <div class=text-dog>
+          <p>{{dog.description}}</p>
+        </div>
+      </div>
+
+    </div>
+    <button [disabled]="itens.first >= 2 && itens.last >= 2" (click)="nextDog()">&gt;</button>
+  </div>
+
+
+</div>
