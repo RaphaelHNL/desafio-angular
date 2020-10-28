@@ -3,8 +3,10 @@
 Esse projeto foi feito utilizando Angular 10.
 
 ## Tecnologias usadas
-HTML e CSS.
-Framework Angular.
+* HTML
+* CSS
+* Framework Angular
+* Framework Angular Material
 
 ## Rodando o projeto
 Séra necessário instalar o Json-server com npm: 'npm install -g json-server'.
